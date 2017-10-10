@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		E48264F41F8C5F6A00D75F72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48264F31F8C5F6A00D75F72 /* AppDelegate.swift */; };
-		E48264F61F8C5F6A00D75F72 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48264F51F8C5F6A00D75F72 /* FirstViewController.swift */; };
 		E48264F91F8C5F6A00D75F72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E48264F71F8C5F6A00D75F72 /* Main.storyboard */; };
 		E48264FB1F8C5F6A00D75F72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E48264FA1F8C5F6A00D75F72 /* Assets.xcassets */; };
 		E48264FE1F8C5F6A00D75F72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E48264FC1F8C5F6A00D75F72 /* LaunchScreen.storyboard */; };
 		E48265091F8C5F6B00D75F72 /* delegatesTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48265081F8C5F6B00D75F72 /* delegatesTutorialTests.swift */; };
 		E48265141F8C5F6B00D75F72 /* delegatesTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48265131F8C5F6B00D75F72 /* delegatesTutorialUITests.swift */; };
-		E48265221F8C5FFD00D75F72 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48265211F8C5FFD00D75F72 /* SecondViewController.swift */; };
 		E48265261F8C675B00D75F72 /* ColorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48265251F8C675B00D75F72 /* ColorUtils.swift */; };
 		E48265281F8C685D00D75F72 /* StoryboardUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48265271F8C685D00D75F72 /* StoryboardUtils.swift */; };
+		E482652B1F8C6E8500D75F72 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48265291F8C6E8500D75F72 /* SecondViewController.swift */; };
+		E482652C1F8C6E8500D75F72 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E482652A1F8C6E8500D75F72 /* FirstViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 /* Begin PBXFileReference section */
 		E48264F01F8C5F6A00D75F72 /* delegatesTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = delegatesTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E48264F31F8C5F6A00D75F72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E48264F51F8C5F6A00D75F72 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		E48264F81F8C5F6A00D75F72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E48264FA1F8C5F6A00D75F72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E48264FD1F8C5F6A00D75F72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,9 +49,10 @@
 		E482650F1F8C5F6B00D75F72 /* delegatesTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = delegatesTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E48265131F8C5F6B00D75F72 /* delegatesTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = delegatesTutorialUITests.swift; sourceTree = "<group>"; };
 		E48265151F8C5F6B00D75F72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E48265211F8C5FFD00D75F72 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		E48265251F8C675B00D75F72 /* ColorUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorUtils.swift; sourceTree = "<group>"; };
 		E48265271F8C685D00D75F72 /* StoryboardUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardUtils.swift; sourceTree = "<group>"; };
+		E48265291F8C6E8500D75F72 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E482652A1F8C6E8500D75F72 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,12 +106,10 @@
 				E48265241F8C674B00D75F72 /* Controllers */,
 				E48265231F8C674B00D75F72 /* Utils */,
 				E48264F31F8C5F6A00D75F72 /* AppDelegate.swift */,
-				E48264F51F8C5F6A00D75F72 /* FirstViewController.swift */,
 				E48264F71F8C5F6A00D75F72 /* Main.storyboard */,
 				E48264FA1F8C5F6A00D75F72 /* Assets.xcassets */,
 				E48264FC1F8C5F6A00D75F72 /* LaunchScreen.storyboard */,
 				E48264FF1F8C5F6A00D75F72 /* Info.plist */,
-				E48265211F8C5FFD00D75F72 /* SecondViewController.swift */,
 			);
 			path = delegatesTutorial;
 			sourceTree = "<group>";
@@ -146,6 +144,8 @@
 		E48265241F8C674B00D75F72 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E482652A1F8C6E8500D75F72 /* FirstViewController.swift */,
+				E48265291F8C6E8500D75F72 /* SecondViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -284,9 +284,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E48265221F8C5FFD00D75F72 /* SecondViewController.swift in Sources */,
+				E482652C1F8C6E8500D75F72 /* FirstViewController.swift in Sources */,
+				E482652B1F8C6E8500D75F72 /* SecondViewController.swift in Sources */,
 				E48265281F8C685D00D75F72 /* StoryboardUtils.swift in Sources */,
-				E48264F61F8C5F6A00D75F72 /* FirstViewController.swift in Sources */,
 				E48264F41F8C5F6A00D75F72 /* AppDelegate.swift in Sources */,
 				E48265261F8C675B00D75F72 /* ColorUtils.swift in Sources */,
 			);

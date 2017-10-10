@@ -26,13 +26,13 @@ class SecondViewController: UIViewController {
     //MARK: - UIView Functions
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        self.balloonView.layer.cornerRadius = 2
+        self.title = "Second"
+
+        self.balloonView.layer.cornerRadius = 8
 
         if let message = self.greeting {
             self.balloonLabel.text = "Raccoon said: \(message)"
         }
-        
     }
 
     override func didReceiveMemoryWarning() {
