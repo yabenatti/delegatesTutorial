@@ -57,7 +57,7 @@ class SecondViewController: UIViewController {
     
     //MARK: - IBActions
     @IBAction func didTapCTAButton(_ sender: Any) {
-        self.delegate?.showAnswer(answer: "Piggy answered with kisses!")
+        self.delegate?.showAnswer(answer: "Piggy answered \nwith kisses!")
         self.navigationController?.popViewController(animated: true)
     }
     
