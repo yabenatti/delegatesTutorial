@@ -22,13 +22,17 @@ class SecondViewController: UIViewController {
     //MARK: - Variables
     var delegate : SecondViewControllerDelegate?
     var greeting : String?
-    
+    let bubbleImageView: VJChatBubbleImageView = VJChatBubbleImageView()
+
     //MARK: - UIView Functions
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Second"
-
-        self.balloonView.layer.cornerRadius = 8
+        
+        self.balloonView.backgroundColor = UIColor.clear
+        self.bubbleImageView.constraintImageOnView(view: self.balloonView)
+        self.bubbleImageView.setSpecialInsetImage(name: Images.LeftTailBubble)
+        self.bubbleImageView.tintColor = ColorUtils.Colors.PetroleumBlue
 
         if let message = self.greeting {
             self.balloonLabel.text = "Raccoon said: \(message)"
@@ -53,7 +57,7 @@ class SecondViewController: UIViewController {
     
     //MARK: - IBActions
     @IBAction func didTapCTAButton(_ sender: Any) {
-        self.delegate?.showAnswer(answer: "Kisses from Piggy!")
+        self.delegate?.showAnswer(answer: "Piggy answered with kisses!")
         self.navigationController?.popViewController(animated: true)
     }
     

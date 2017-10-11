@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E44EF4C41F8D829C00B371B1 /* VJChatBubbleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44EF4C31F8D829C00B371B1 /* VJChatBubbleImageView.swift */; };
+		E44EF4C61F8D998200B371B1 /* ImageUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44EF4C51F8D998200B371B1 /* ImageUtils.swift */; };
 		E48264F41F8C5F6A00D75F72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48264F31F8C5F6A00D75F72 /* AppDelegate.swift */; };
 		E48264F91F8C5F6A00D75F72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E48264F71F8C5F6A00D75F72 /* Main.storyboard */; };
 		E48264FB1F8C5F6A00D75F72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E48264FA1F8C5F6A00D75F72 /* Assets.xcassets */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E44EF4C31F8D829C00B371B1 /* VJChatBubbleImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VJChatBubbleImageView.swift; sourceTree = "<group>"; };
+		E44EF4C51F8D998200B371B1 /* ImageUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUtils.swift; sourceTree = "<group>"; };
 		E48264F01F8C5F6A00D75F72 /* delegatesTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = delegatesTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E48264F31F8C5F6A00D75F72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E48264F81F8C5F6A00D75F72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -80,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E44EF4C21F8D829C00B371B1 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E44EF4C31F8D829C00B371B1 /* VJChatBubbleImageView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		E48264E71F8C5F6A00D75F72 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +115,7 @@
 		E48264F21F8C5F6A00D75F72 /* delegatesTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				E44EF4C21F8D829C00B371B1 /* UI */,
 				E48265241F8C674B00D75F72 /* Controllers */,
 				E48265231F8C674B00D75F72 /* Utils */,
 				E48264F31F8C5F6A00D75F72 /* AppDelegate.swift */,
@@ -137,6 +150,7 @@
 			children = (
 				E48265251F8C675B00D75F72 /* ColorUtils.swift */,
 				E48265271F8C685D00D75F72 /* StoryboardUtils.swift */,
+				E44EF4C51F8D998200B371B1 /* ImageUtils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -288,7 +302,9 @@
 				E482652B1F8C6E8500D75F72 /* SecondViewController.swift in Sources */,
 				E48265281F8C685D00D75F72 /* StoryboardUtils.swift in Sources */,
 				E48264F41F8C5F6A00D75F72 /* AppDelegate.swift in Sources */,
+				E44EF4C41F8D829C00B371B1 /* VJChatBubbleImageView.swift in Sources */,
 				E48265261F8C675B00D75F72 /* ColorUtils.swift in Sources */,
+				E44EF4C61F8D998200B371B1 /* ImageUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
