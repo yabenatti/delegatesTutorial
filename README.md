@@ -2,7 +2,7 @@
 
 Simple app to show how to use delegate
 
-![](AppExample.gif)
+![](AppExample.GIF)
 
 ## Getting Started
 
